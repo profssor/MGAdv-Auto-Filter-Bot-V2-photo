@@ -7,6 +7,7 @@ class Translation(object):
     START_TEXT = """<b>Hey {}!!</b>
 <i>Am Just A Advance Auto Filter Bot....😁
 
+Only For @MG_MEDIA🔥🔥😝
 
 For More Details Click Help Button Below..
 @MGMOVIEGRAM
