@@ -7,7 +7,7 @@ class Translation(object):
     START_TEXT = """<b>Hey {}!!</b>
 <i>Am Just A Advance Auto Filter Bot....😁
 
-Only For @MG_MEDIA🔥🔥😝
+Only For @MGMOVIEGRAM🔥🔥😝
 
 For More Details Click Help Button Below..
 @MGMOVIEGRAM
@@ -43,7 +43,7 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@CrazyBotsz
+@MGMOVIEGRAM
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
