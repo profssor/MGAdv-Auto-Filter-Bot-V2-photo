@@ -12,7 +12,7 @@ db = Database()
 
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
-    update_channel = "https://t.me/joinchat/5UxSr0XIphVhYjc9"
+    update_channel = "@MG_MEDIA"
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
@@ -24,7 +24,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="<b>Join Our Movie Channel 🤭   ചാനലിൽ നിങ്ങൾ ഉണ്ട് എങ്കിൽ മാത്രമേ ഈ ബോട്ട് വഴി നിങ്ങൾക്ക് സിനിമ കിട്ടുകയുളളൂ.അതുകൊണ്ട് ചാനെലിൽ ജോയിൻ ആവുക...😁😁</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/joinchat/5UxSr0XIphVhYjc9")]
+                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/MG_MEDIA")]
               ])
             )
             return
