@@ -24,7 +24,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="<b>Join Our Movie Channel 🤭   ചാനലിൽ നിങ്ങൾ ഉണ്ട് എങ്കിൽ മാത്രമേ ഈ ബോട്ട് വഴി നിങ്ങൾക്ക് സിനിമ കിട്ടുകയുളളൂ.അതുകൊണ്ട് ചാനെലിൽ ജോയിൻ ആവുക...😁😁</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/MG_MEDIA")]
+                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/joinchat/5UxSr0XIphVhYjc9")]
               ])
             )
             return
